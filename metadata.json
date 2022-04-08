@@ -1,0 +1,34 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "CB KiCAD Libraries",
+    "description": "User-friendly library package for beginners by Circuit Breaker Robotics",
+    "description_full": "Circuit Breaker Robotics KiCAD library pack is a collection of common electronic components libraries for the free and open-source KiCAD PCB design software. The goal of Circuit Breaker KiCAD Libraries is to provide a user-friendly library package for beginners.",
+    "identifier": "com.github.circuitbreakersrobotics.CircuitBreakers-KiCAD-Libraries",
+    "type": "library",
+    "author": {
+        "name": "Circuitbreakers Robotics",
+        "contact": {
+            "web": "https://circuitbreakerssl.com"
+        }
+    },
+    "maintainer": {
+        "name": "Circuitbreakers Robotics",
+        "contact": {
+            "web": "https://circuitbreakerssl.com"
+        }
+    },
+    "license": "Unlicense",
+    "resources": {
+        "GitHub": "https://github.com/circuitbreakersrobotics/CB-KiCAD-Libraries"
+    },
+    "versions": [
+        {
+            "version": "0.0.1",
+            "status": "development",
+            "kicad_version": "6",
+            "download_size": 4900000,
+            "download_url": "https://github.com/YOUR/DOWNLOAD/URL/kicad-beautiful-theme.zip",
+            "install_size": 18000000
+        }
+    ]
+}
