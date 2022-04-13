@@ -1551,7 +1551,7 @@
     (property "Value" "Push_Button_W12mm" (id 1) (at 0 4.445 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_THT:SW_PUSH-12mm_Wuerth-430476085716" (id 2) (at -0.127 -3.175 0)
+    (property "Footprint" "CB_Footprints:Push_Button_W12mm" (id 2) (at -0.127 -3.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
