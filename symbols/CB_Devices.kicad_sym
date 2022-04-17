@@ -2102,7 +2102,7 @@
     (property "Value" "potentiometer_RM065" (id 1) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" (id 2) (at -0.254 -6.096 0)
+    (property "Footprint" "CB_Devices:Potentiometer_RM065" (id 2) (at -0.254 -6.096 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
