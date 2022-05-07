@@ -19,7 +19,7 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
      ##         **📂Download -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.0.2/CB_KiCAD_Libraries_v0.0.2.zip">CB_KiCAD_Libraries_v0.0.2</a>**
     ### **+------------------------------------------------------------------------+**
 
-
+  ![footprints](./videos/gif_04.gif) 
 
 2. After downloading the package, open KiCAD and launch the PCM.
 
