@@ -2,7 +2,7 @@
 
 ![Final](./resources/home.png)
 
-##  **Introduction **
+##  **Introduction**
 ---
 
 Circuit Breaker Robotics KiCAD library pack is a collection of common electronic components libraries for the free and open-source KiCAD PCB design software. The goal of Circuit Breaker KiCAD Libraries is to provide a user-friendly library package for beginners. Components like resistors and capacitors are name base on the values like 10k,100ohm, 22uF… So users can directly search for the value and directly add it to their design. Most of the footprints and the 3D models are directly linked to KiCAD’s default libraries. So users can still use KiCAD,s official footprints, and 3D models.  
@@ -19,11 +19,13 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
      ##         **📂Download -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.0.2/CB_KiCAD_Libraries_v0.0.2.zip">CB_KiCAD_Libraries_v0.0.2</a>**
     ### **+------------------------------------------------------------------------+**
 
-  ![footprints](./videos/gif_04.gif) 
+  ![footprints](./videos/gif_01.gif) 
 
 2. After downloading the package, open KiCAD and launch the PCM.
 
 3. Click on the option "Install from File" and select the downloaded zip file. Then the library files will be extracted into the KiCAD third-party library directories. 
+
+ ![footprints](./videos/gif_02.gif) 
 
 4. After successfully installing the libraries we need to manually update symbol and footprint library tables. To do that go to **preference > 📚manage symbol libraries** and select the **global library** section. Then click the file icon at the bottom and navigate to the following location according to your operating system.
 
@@ -34,7 +36,7 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
     
 5. Then select all the symbols libraries in that directory and click **open**. After adding the symbol files to the library table click **OK** to close the symbol library manage window.
 
-     ![symbols](./videos)
+     ![symbols](./videos/gif_03.gif)
 
 6. To add footprint libraries go to **preference > 📚manage footprint libraries** and select the **global library** section. Then click the file icon at the bottom and navigate to the following location according to your operating system. 
 
