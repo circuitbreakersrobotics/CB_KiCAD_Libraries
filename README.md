@@ -16,17 +16,14 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
 
 
     ### **+------------------------------------------------------------------------+**
-     ##         **📂Download -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.0.2/CB_KiCAD_Libraries_v0.0.2.zip">CB_KiCAD_Libraries_v0.0.1</a>**
+     ##         **📂Download -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.0.2/CB_KiCAD_Libraries_v0.0.2.zip">CB_KiCAD_Libraries_v0.0.2</a>**
     ### **+------------------------------------------------------------------------+**
+
 
 
 2. After downloading the package, open KiCAD and launch the PCM.
 
-
-3. Click on the option "Install from File" and select the downloaded zip file. Then the library files will be extracted into the KiCAD third-party library directories.
-
-
-    ![Install](./videos/gif_02.gif) 
+3. Click on the option "Install from File" and select the downloaded zip file. Then the library files will be extracted into the KiCAD third-party library directories. 
 
 4. After successfully installing the libraries we need to manually update symbol and footprint library tables. To do that go to **preference > 📚manage symbol libraries** and select the **global library** section. Then click the file icon at the bottom and navigate to the following location according to your operating system.
 
@@ -36,6 +33,8 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
 
     
 5. Then select all the symbols libraries in that directory and click **open**. After adding the symbol files to the library table click **OK** to close the symbol library manage window.
+
+     ![symbols](./videos)
 
 6. To add footprint libraries go to **preference > 📚manage footprint libraries** and select the **global library** section. Then click the file icon at the bottom and navigate to the following location according to your operating system. 
 
@@ -50,4 +49,4 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
 
 7. Then select all the footprint folders in that directory and click **Select Foder** . After adding the footprint folders to the library table click **OK** to close the footprintl library manage window.
 
-
+     ![footprints](./videos/gif_04.gif) 
