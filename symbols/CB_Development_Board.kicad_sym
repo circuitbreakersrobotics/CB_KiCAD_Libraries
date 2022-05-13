@@ -530,7 +530,7 @@
     (property "Value" "STM32_Blue_Pill_DevBoard" (id 1) (at -1.27 -29.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "CB_Development_Boards:STM32_Blue_Pill_DevBoard" (id 2) (at -16.51 60.96 0)
+    (property "Footprint" "CB_Development_Boards:STM32_Blue_Pill_DevBoard" (id 2) (at -1.27 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at -16.51 60.96 0)
