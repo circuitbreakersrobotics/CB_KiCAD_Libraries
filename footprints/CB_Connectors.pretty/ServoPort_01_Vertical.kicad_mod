@@ -1,6 +1,6 @@
 (footprint "ServoPort_01_Vertical" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 627DF01C)
+  (tedit 6284F87F)
   (attr through_hole)
   (fp_text reference "REF**" (at 3.1496 -2.54 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -26,18 +26,8 @@
   (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp 7ef20b6d-137b-486f-bac0-f1804ce6a99a))
   (pad "GND" thru_hole circle (at 5.08 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp 34a45118-4aa6-42b4-8c86-15ae16ae0f79))
   (pad "VCC" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp a56cf58b-5fc4-4c8d-be39-dc6f6748a755))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.step"
+  (model "F:/CircuitBreakers/CircuitBreakersKiCADLibraries/CB_FreeCAD/PinHeader_P2.54mm_3x01.wrl"
     (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.step"
-    (offset (xyz 2.54 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.step"
-    (offset (xyz 5.08 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

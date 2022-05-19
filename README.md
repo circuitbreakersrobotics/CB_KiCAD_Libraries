@@ -1,3 +1,5 @@
+![PLATFORM](https://img.shields.io/badge/PLATFORM-KiCAD-informational?style=for-the-badge)  ![PLATFORM](https://img.shields.io/badge/Version-v0.0.2-success?style=for-the-badge)
+
 # **CircuitBreakers KiCAD Libraries**
 
 ![Final](./resources/home.png)
