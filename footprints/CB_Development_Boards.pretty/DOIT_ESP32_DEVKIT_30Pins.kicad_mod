@@ -1,6 +1,6 @@
 (footprint "DOIT_ESP32_DEVKIT_30Pins" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62486986)
+  (tedit 6287E156)
   (attr through_hole)
   (fp_text reference "REF**" (at 0.5 -14.65) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -282,9 +282,4 @@
   (pad "28" thru_hole oval (at 12.646929 -11.43 270) (size 1.8 2.4) (drill 1) (layers *.Cu *.Mask) (tstamp 8a8ed353-c8e0-485a-9070-c8deac2cc33e))
   (pad "29" thru_hole oval (at 12.646929 -13.97 270) (size 1.8 2.4) (drill 1) (layers *.Cu *.Mask) (tstamp a97eab6e-523b-4d54-ac94-339acc95cb84))
   (pad "30" thru_hole oval (at 12.646929 -16.51 270) (size 1.8 2.4) (drill 1) (layers *.Cu *.Mask) (tstamp 3c14836e-d1e0-4317-b386-5748f4f0ad4c))
-  (model "M:/CircuitBreakers/CircuitBreakersKiCADLibraries/External_3D/esp-wroom-32-2.snapshot.2/ESP-WROOM32.STEP"
-    (offset (xyz -1.6 15.7 6))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 180))
-  )
 )
