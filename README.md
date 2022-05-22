@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/badge/COMPONESNTS-322-yellow?style=for-the-badge)   ![PLATFORM](https://img.shields.io/badge/PLATFORM-KiCAD-informational?style=for-the-badge)   ![Version](https://img.shields.io/badge/Version-v0.0.3-success?style=for-the-badge)
+![Version](https://img.shields.io/badge/COMPONESNTS-322-yellow?style=for-the-badge)   ![PLATFORM](https://img.shields.io/badge/PLATFORM-KiCAD-informational?style=for-the-badge&?link=https://www.kicad.org/=https://www.kicad.org/)   ![Version](https://img.shields.io/badge/Version-v0.0.3-success?style=for-the-badge)
 
 # **CircuitBreakers KiCAD Libraries**
 
