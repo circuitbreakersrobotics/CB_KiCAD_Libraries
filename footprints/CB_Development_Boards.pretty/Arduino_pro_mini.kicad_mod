@@ -52,4 +52,24 @@
   (pad "31" thru_hole rect (at -6.44 -16.51) (size 1.8 2.3) (drill 1 (offset 0 -0.24)) (layers *.Cu *.Mask) (tstamp 32f7f993-844d-4647-82bc-7e4c69fc685b))
   (pad "32" thru_hole oval (at 5.08 -5.08) (size 2.4 1.82) (drill 1.016 (offset -0.28 -0.01)) (layers *.Cu *.Mask) (tstamp e09a27a3-bdcb-4a52-8356-44f3d9cdc103))
   (pad "33" thru_hole oval (at 5.08 -2.54) (size 2.4 1.8) (drill 1.016 (offset -0.28 0)) (layers *.Cu *.Mask) (tstamp 42ba407d-a036-422b-9b59-0018a6ff74da))
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_circuitbreakersrobotics_CB-KiCAD-Libraries/CB_Connectors/PinSocket_P2.54mm_1x12.wrl"
+    (offset (xyz -7.5 14 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_circuitbreakersrobotics_CB-KiCAD-Libraries/CB_Connectors/PinSocket_P2.54mm_1x12.wrl"
+    (offset (xyz 7.5 14 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_circuitbreakersrobotics_CB-KiCAD-Libraries/CB_Connectors/PinSocket_P2.54mm_1x03.wrl"
+    (offset (xyz 0 -14 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_circuitbreakersrobotics_CB-KiCAD-Libraries/CB_Connectors/PinSocket_P2.54mm_1x06.wrl"
+    (offset (xyz 6.4 16.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
