@@ -12,6 +12,12 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_keywords" "Mounting Hole" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "3.2mm Diameter Mounting Hole (M3)" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "MountingHole_M3_0_1"
       (circle (center 0 0) (radius 1.27)
         (stroke (width 0) (type default) (color 0 0 0 0))

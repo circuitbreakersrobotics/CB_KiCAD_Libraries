@@ -1739,6 +1739,9 @@
     (property "ki_keywords" "switch" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_description" "Common 12mmx12mm Push Button" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "Push_Button_W12mm_0_1"
       (circle (center -1.27 0) (radius 0.4579)
         (stroke (width 0) (type default) (color 0 0 0 0))
