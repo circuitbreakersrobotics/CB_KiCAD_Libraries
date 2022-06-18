@@ -1,6 +1,6 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
   (symbol "Arduino_Pro_Mini" (in_bom yes) (on_board yes)
-    (property "Reference" "A" (id 0) (at -13.335 30.48 0)
+    (property "Reference" "A" (id 0) (at -12.7 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Arduino_Pro_Mini" (id 1) (at 0.635 -3.81 0)
