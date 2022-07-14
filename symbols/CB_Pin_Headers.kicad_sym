@@ -9633,7 +9633,7 @@
     (property "ki_description" "Pin Header male with pin space 2.54mm. Pin Count -2" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader_1x02_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x2_Male_0_1"
