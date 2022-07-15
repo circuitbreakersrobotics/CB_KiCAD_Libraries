@@ -18,7 +18,7 @@
     (property "ki_description" "Pin Header female with pin space 2.54mm. Pin Count - 10" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinSocket_1x10_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x10_Female_0_1"
@@ -409,7 +409,7 @@
     (property "ki_description" "Pin Header male with pin space 2.54mm. Pin Count -10" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader_1x10_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x10_Male_0_1"
@@ -8318,7 +8318,7 @@
     (property "ki_description" "Pin Header female with pin space 2.54mm. Pin Count -1" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinSocket_1x01_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x1_Female_0_1"
@@ -9530,7 +9530,7 @@
     (property "ki_description" "Pin Header female with pin space 2.54mm. Pin Count -2" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinSocket_1x02_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x2_Female_0_1"
@@ -9704,7 +9704,7 @@
     (property "ki_description" "Pin Header female with pin space 2.54mm. Pin Count -3" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinSocket_1x03_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x3_Female_0_1"
@@ -9843,7 +9843,7 @@
     (property "ki_description" "Pin Header male with pin space 2.54mm. Pin Count -3" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader_1x03_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x3_Male_0_1"
@@ -9934,7 +9934,7 @@
     (property "ki_description" "Pin Header female with pin space 2.54mm. Pin Count -4" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinSocket_1x04_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x4_Female_0_1"
@@ -10109,7 +10109,7 @@
     (property "ki_description" "Pin Header male with pin space 2.54mm. Pin Count -4" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader_1x04_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x4_Male_0_1"
@@ -10220,7 +10220,7 @@
     (property "ki_description" "Pin Header female with pin space 2.54mm. Pin Count -5" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinSocket_1x05_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x5_Female_0_1"
@@ -10431,7 +10431,7 @@
     (property "ki_description" "Pin Header male with pin space 2.54mm. Pin Count -5" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader_1x05_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x5_Male_0_1"
@@ -10562,7 +10562,7 @@
     (property "ki_description" "Pin Header female with pin space 2.54mm. Pin Count -6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinSocket_1x06_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x6_Female_0_1"
@@ -10809,7 +10809,7 @@
     (property "ki_description" "Pin Header male with pin space 2.54mm. Pin Count -6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader_1x06_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x6_Male_0_1"
@@ -10960,7 +10960,7 @@
     (property "ki_description" "Pin Header female with pin space 2.54mm. Pin Count -7" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinSocket_1x07_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x7_Female_0_1"
@@ -11243,7 +11243,7 @@
     (property "ki_description" "Pin Header male with pin space 2.54mm. Pin Count -7" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader_1x07_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x7_Male_0_1"
@@ -11414,7 +11414,7 @@
     (property "ki_description" "Pin Header female with pin space 2.54mm. Pin Count -8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinSocket_1x08_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x8_Female_0_1"
@@ -11733,7 +11733,7 @@
     (property "ki_description" "Pin Header male with pin space 2.54mm. Pin Count -8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader_1x08_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x8_Male_0_1"
@@ -11924,7 +11924,7 @@
     (property "ki_description" "Pin Header female with pin space 2.54mm. Pin Count - 9" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinSocket_1x09_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x9_Female_0_1"
@@ -12279,7 +12279,7 @@
     (property "ki_description" "Pin Header male with pin space 2.54mm. Pin Count -9" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader_1x09_P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PINHD_1x9_Male_0_1"
