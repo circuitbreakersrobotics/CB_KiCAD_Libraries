@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/badge/COMPONESNTS-326-yellow?style=for-the-badge)   ![PLATFORM](https://img.shields.io/badge/PLATFORM-KiCAD-informational?style=for-the-badge&?link=https://www.kicad.org/=https://www.kicad.org/)   ![Version](https://img.shields.io/badge/Version-v0.0.3-success?style=for-the-badge)
+![Version](https://img.shields.io/badge/COMPONESNTS-327-yellow?style=for-the-badge)   ![PLATFORM](https://img.shields.io/badge/PLATFORM-KiCAD-informational?style=for-the-badge&?link=https://www.kicad.org/=https://www.kicad.org/)   ![Version](https://img.shields.io/badge/Version-v0.0.4-success?style=for-the-badge)
 
 # **CircuitBreakers KiCAD Libraries**
 
@@ -18,7 +18,7 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
 
 
     ### **+------------------------------------------------------------------------+**
-     ##         **📂Download -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.0.3/CB_KiCAD_Libraries_v0.0.3.zip">CB_KiCAD_Libraries_v0.0.3</a>**
+     ##         **📂Download -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.0.4/CB_KiCAD_Libraries_v0.0.4.zip">CB_KiCAD_Libraries_v0.0.4</a>**
     ### **+------------------------------------------------------------------------+**
 
   ![footprints](./videos/gif_01.gif) 

@@ -23,12 +23,12 @@
     },
     "versions": [
         {
-            "version": "0.0.2",
+            "version": "0.0.4",
             "status": "development",
             "kicad_version": "6",
-            "download_size": 12900000,
+            "download_size": 28000000,
             "download_url": "https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.0.2/CB_KiCAD_Libraries_v0.0.2.zip",
-            "install_size": 32000000
+            "install_size": 172000000
         }
     ]
 }
