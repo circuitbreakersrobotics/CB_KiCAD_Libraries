@@ -25,11 +25,19 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
 
 2. After downloading the package, open KiCAD and launch the PCM.
 
+     ![PCM](./videos/PCM.png) 
+
 3. Click on the option "Install from File" and select the downloaded zip file. Then the library files will be extracted into the KiCAD third-party library directories. 
 
+     ![PCM](./videos/install.png) 
+
+
  ![footprints](https://raw.githubusercontent.com/circuitbreakersrobotics/CB_KiCAD_Libraries/main/videos/gif_02.gif) 
+ https://raw.githubusercontent.com/circuitbreakersrobotics/CB_KiCAD_Libraries/master/videos/gif_02.gif
 
 4. After successfully installing the libraries we need to manually update symbol and footprint library tables. To do that go to **preference > 📚manage symbol libraries** and select the **global library** section. Then click the file icon at the bottom and navigate to the following location according to your operating system.
+
+      ![Symbole Lib Add](./videos/SymLibAdd.png) 
 
 **Windows ->** 
 
