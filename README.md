@@ -46,11 +46,11 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
     
 5. Then select all the symbols libraries in that directory and click **open**. After adding the symbol files to the library table click **OK** to close the symbol library manage window.
 
-     ![symbols](./videos/gif_03.gif)
+     ![Selecting Symbole](./videos/SelectingSymLib.png)
 
 6. To add footprint libraries go to **preference > 📚manage footprint libraries** and select the **global library** section. Then click the file icon at the bottom and navigate to the following location according to your operating system. 
 
-
+     ![FooprintLibAdd](./videos/FooprintLibAdd.png) 
 
 
  **Windows ->** 
@@ -61,4 +61,4 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
 
 7. Then select all the footprint folders in that directory and click **Select Foder** . After adding the footprint folders to the library table click **OK** to close the footprintl library manage window.
 
-     ![footprints](./videos/gif_04.gif) 
+     ![Select footprints](./videos/SelectFootprintLib.png) 
