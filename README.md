@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/badge/COMPONESNTS-330-yellow?style=for-the-badge)   ![PLATFORM](https://img.shields.io/badge/PLATFORM-KiCAD-informational?style=for-the-badge&?link=https://www.kicad.org/=https://www.kicad.org/)   ![Version](https://img.shields.io/badge/Version-v0.0.4-success?style=for-the-badge)
+![Version](https://img.shields.io/badge/COMPONESNTS-330-yellow?style=for-the-badge)   ![PLATFORM](https://img.shields.io/badge/PLATFORM-KiCAD-informational?style=for-the-badge&?link=https://www.kicad.org/=https://www.kicad.org/)   ![Version](https://img.shields.io/badge/Version-v0.0.4-success?style=for-the-badge) <a href="https://www.youtube.com/c/CircuitBreakersRobotics"><img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Badge"/></a>
 
 # **CircuitBreakers KiCAD Libraries**
 
@@ -78,7 +78,7 @@ To check whether all the symbol libraries are installed correctly, open the sche
 - CB_Transistors
 
 
-     ![Symbole Chooser](./videos/CBSymboleLibs.png) 
+![Symbole Chooser](./videos/CBSymboleLibs.png) 
 
 To check whether all the footprint libraries are installed correctly. Go to the Footprint Editor and find similar libraries to symbol library names in the Library panel as shown in the following image. 
 
