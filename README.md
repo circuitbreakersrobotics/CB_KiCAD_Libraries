@@ -9,6 +9,14 @@
 
 Circuit Breaker Robotics KiCAD library pack is a collection of common electronic components libraries for the free and open-source KiCAD PCB design software. The goal of Circuit Breaker KiCAD Libraries is to provide a user-friendly library package for beginners. Components like resistors and capacitors are name base on the values like 10k,100ohm, 22uF… So users can directly search for the value and directly add it to their design. Most of the footprints and the 3D models are directly linked to KiCAD’s default libraries. So users can still use KiCAD,s official footprints, and 3D models.  
 
+## **Requirements**
+---
+- You need to have a KiCAD version 6 or above. If not, install the latest KiCAD version from <a href="https://www.kicad.org/download/">here</a>.
+
+- Required to have default(official) KiCAD libraries installed in KiCAD. Because some symbols in CB KiCAD Libraries are linked to KiCAD default libraries.
+
+- Need to have 200MB of disk space.
+
 ## **How to install 📜**
 ---
 
