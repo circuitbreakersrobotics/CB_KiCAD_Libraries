@@ -17,9 +17,4 @@
   (fp_line (start 20.979999 0) (end 13.986665 0) (layer "Eco1.User") (width 0.12) (tstamp b40f7e0e-63a8-4843-8bd1-9c6ba9993089))
   (fp_line (start 6.993333 -1.17) (end 6.993333 0) (layer "Eco1.User") (width 0.12) (tstamp c970f863-2eeb-4363-945c-2275a112fd4c))
   (fp_line (start 13.986665 -1.17) (end 6.993333 -1.17) (layer "Eco1.User") (width 0.12) (tstamp d9e4bb90-e4df-4aae-93aa-3267aceb0fcc))
-  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_circuitbreakersrobotics_CB-KiCAD-Libraries/CB_Development_Boards.3dshapes/Raspberry_pi_pico.wrl"
-    (offset (xyz 21 -51 1.5))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
-  )
 )

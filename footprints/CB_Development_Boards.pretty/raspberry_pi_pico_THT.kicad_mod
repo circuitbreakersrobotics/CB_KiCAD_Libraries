@@ -73,14 +73,4 @@
   (pad "38" thru_hole oval (at 17.78 5.08 270) (size 1.8 2.4) (drill 1) (layers *.Cu *.Mask) (tstamp 7cee474b-af8f-4832-b07a-c43c1ab0b464))
   (pad "39" thru_hole oval (at 17.78 2.54 270) (size 1.8 2.4) (drill 1) (layers *.Cu *.Mask) (tstamp 7cee474b-af8f-4832-b07a-c43c1ab0b464))
   (pad "40" thru_hole oval (at 17.78 0 270) (size 1.8 2.4) (drill 1) (layers *.Cu *.Mask) (tstamp 7cee474b-af8f-4832-b07a-c43c1ab0b464))
-  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_circuitbreakersrobotics_CB-KiCAD-Libraries/CB_Connectors/PinSocket_P2.54mm_1x20.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_circuitbreakersrobotics_CB-KiCAD-Libraries/CB_Connectors/PinSocket_P2.54mm_1x20.wrl"
-    (offset (xyz 17.8 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
