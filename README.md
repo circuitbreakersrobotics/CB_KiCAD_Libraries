@@ -2,7 +2,7 @@
 
 # **CircuitBreakers KiCAD Libraries**
 
-![Final](./resources/home.png)
+![Final](./videos/home.png)
 
 ##  **Introduction**
 ---
