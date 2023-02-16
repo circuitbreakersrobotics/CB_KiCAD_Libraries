@@ -24,24 +24,34 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
 
 1. First you need to download the latest release vision of the library pack. Click below to download the latest release vision.
 
+- **For KiCAD 7,0 or Newer**
 
     ### **+------------------------------------------------------------------------+**
-     ##         **📂Download -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.2/CB_KiCAD_V7_Libraries_v0.2.zip">CB_KiCAD_Libraries_v0.2</a>**
+     ##         **📂Download KiCAD 7 -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.2/CB_KiCAD_V7_Libraries_v0.2.zip">CB_KiCAD_Libraries_v0.2</a>**
     ### **+------------------------------------------------------------------------+**
 
-  ![footprints](./videos/gif_01.gif) 
+### 
+
+- **For KiCAD 6.0**
+
+  ### +------------------------------------------------------------------------+
+  ###         📂Download KiCAD 6 -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.2/CB_KiCAD_V6_Libraries_v0.2.zip">CB_KiCAD_Libraries_v0.2</a>
+  ### +------------------------------------------------------------------------+
 
 2. After downloading the package, open KiCAD and launch the PCM.
 
      ![PCM](./videos/PCM.png) 
 
-3. Click on the option "Install from File" and select the downloaded zip file. Then the library files will be extracted into the KiCAD third-party library directories. 
+3. Click on the option "Install from File" and select the downloaded zip file. Then the library files will be extracted into the KiCAD third-party library directories. ***Restart KiCAD** after installing it.*
 
      ![PCM](./videos/install.png) 
 
 
   ![footprints](https://raw.githubusercontent.com/circuitbreakersrobotics/CB_KiCAD_Libraries/main/videos/gif_02.gif) 
 
+
+-----------------------
+## Additional steps for users of KiCad 6.0
 
 4. After successfully installing the libraries we need to manually update symbol and footprint library tables. To do that go to **preference > 📚manage symbol libraries** and select the **global library** section. Then click the file icon at the bottom and navigate to the following location according to your operating system.
 
