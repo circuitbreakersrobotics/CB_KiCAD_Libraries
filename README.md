@@ -24,7 +24,7 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
 
 1. First you need to download the latest release vision of the library pack. Click below to download the latest release vision.
 
-- **For KiCAD 7,0 or Newer**
+- **For KiCAD 7.0 or Newer**
 
     ### **+------------------------------------------------------------------------+**
      ##         **📂Download KiCAD 7 -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.2/CB_KiCAD_V7_Libraries_v0.2.zip">CB_KiCAD_Libraries_v0.2</a>**
@@ -42,18 +42,28 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
 
      ![PCM](./videos/PCM.png) 
 
-3. Click on the option "Install from File" and select the downloaded zip file. Then the library files will be extracted into the KiCAD third-party library directories. ***Restart KiCAD** after installing it.*
+3. Click on the option "Install from File" and select the downloaded zip file. Then the library files will be extracted into the KiCAD third-party library directories. 
 
      ![PCM](./videos/install.png) 
 
 
-  ![footprints](https://raw.githubusercontent.com/circuitbreakersrobotics/CB_KiCAD_Libraries/main/videos/gif_02.gif) 
+4. Go to installed tab at the top and check whether the libraries are installed. 
 
+    ![Installed](./videos/installed.png) 
+
+
+
+
+5. **Restart KiCAD** after installing the library package. 
+
+### Congratulations... You had successfully Installed the Circuit Breaker Robotics KiCAD library pack.
+
+KiCad 6.0 (version 6.0) usess need to manually import the libraries through library manager. Additional steps are provided bellow.  
 
 -----------------------
 ## Additional steps for users of KiCad 6.0
 
-4. After successfully installing the libraries we need to manually update symbol and footprint library tables. To do that go to **preference > 📚manage symbol libraries** and select the **global library** section. Then click the file icon at the bottom and navigate to the following location according to your operating system.
+6. After successfully installing the libraries we need to manually update symbol and footprint library tables. To do that go to **preference > 📚manage symbol libraries** and select the **global library** section. Then click the file icon at the bottom and navigate to the following location according to your operating system.
 
       ![Symbole Lib Add](./videos/SymLibAdd.png) 
 
@@ -62,11 +72,11 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
 |__`📄Documents > KiCad > 6.0 > 3rdparty > symbols > com_github_circuitbreakersrobotics_CB-KiCAD-Libraries`__ |  
 
     
-5. Then select all the symbols libraries in that directory and click **open**. After adding the symbol files to the library table click **OK** to close the symbol library manage window.
+7. Then select all the symbols libraries in that directory and click **open**. After adding the symbol files to the library table click **OK** to close the symbol library manage window.
 
      ![Selecting Symbole](./videos/SelectingSymLib.png)
 
-6. To add footprint libraries go to **preference > 📚manage footprint libraries** and select the **global library** section. Then click the file icon at the bottom and navigate to the following location according to your operating system. 
+8. To add footprint libraries go to **preference > 📚manage footprint libraries** and select the **global library** section. Then click the file icon at the bottom and navigate to the following location according to your operating system. 
 
      ![FooprintLibAdd](./videos/FooprintLibAdd.png) 
 
@@ -77,7 +87,7 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
 
  
 
-7. Then select all the footprint folders in that directory and click **Select Floder** . After adding the footprint folders to the library table click **OK** to close the footprintl library manage window.
+9. Then select all the footprint folders in that directory and click **Select Floder** . After adding the footprint folders to the library table click **OK** to close the footprintl library manage window.
 
      ![Select footprints](./videos/SelectFootprintLib.png) 
 
