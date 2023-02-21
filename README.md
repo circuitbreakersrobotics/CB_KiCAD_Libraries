@@ -7,7 +7,7 @@
 ##  **Introduction**
 ---
 
-Circuit Breaker Robotics KiCAD library pack is a collection of common electronic components libraries for the free and open-source KiCAD PCB design software. The goal of Circuit Breaker KiCAD Libraries is to provide a user-friendly library package for beginners. Components like resistors and capacitors are name base on the values like 10k,100ohm, 22uF… So users can directly search for the value and directly add it to their design. Most of the footprints and the 3D models are directly linked to KiCAD’s default libraries. So users can still use KiCAD,s official footprints, and 3D models.  
+CircuitBreakers Robotics KiCAD library pack is a collection of common electronic components libraries for the free and open-source KiCAD PCB design software. The goal of CircuitBreakers KiCAD Libraries is to provide a user-friendly library package for beginners. Components like resistors and capacitors are name base on the values like 10k,100ohm, 22uF… So users can directly search for the value and directly add it to their design. Most of the footprints and the 3D models are directly linked to KiCAD’s default libraries. So users can still use KiCAD,s official footprints, and 3D models.  
 
 ## **Requirements**
 ---
@@ -228,3 +228,6 @@ All the components in theCB  KiCAD Library are listaed below.
      </tbody>
   </table>
 </div>
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
