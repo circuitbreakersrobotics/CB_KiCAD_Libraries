@@ -1,8 +1,8 @@
 {
     "$schema": "https://go.kicad.org/pcm/schemas/v1",
     "name": "CB KiCAD Libraries",
-    "description": "User-friendly library package for beginners by Circuit Breaker Robotics",
-    "description_full": "Circuit Breaker Robotics KiCAD library pack is a collection of common electronic components libraries for the free and open-source KiCAD PCB design software. The goal of Circuit Breaker KiCAD Libraries is to provide a user-friendly library package  for beginners.",
+    "description": "User-friendly library package for beginners by CircuitBreakers Robotics",
+    "description_full": "CircuitBreakers Robotics KiCAD library pack is a collection of common electronic components libraries for the free and open-source KiCAD PCB design software. The goal of Circuit Breaker KiCAD Libraries is to provide a user-friendly library package  for beginners.",
     "identifier": "com.github.circuitbreakersrobotics.CB-KiCAD-Libraries",
     "type": "library",
     "author": {
