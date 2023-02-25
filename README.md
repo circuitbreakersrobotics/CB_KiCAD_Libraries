@@ -26,17 +26,17 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
 
 - **For KiCAD 7.0 or Newer**
 
-    ### **+------------------------------------------------------------------------+**
+    ### **+-----------------------------------------------------------------------+**
      ##         **📂Download KiCAD 7 -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.2/CB_KiCAD_V7_Libraries_v0.2.1.zip">CB_KiCAD_Libraries_v0.2</a>**
-    ### **+------------------------------------------------------------------------+**
+    ### **+-----------------------------------------------------------------------+**
 
 ### 
 
 - **For KiCAD 6.0**
 
-  ### +------------------------------------------------------------------------+
+  ### +-----------------------------------------------------------------------+
   ###         📂Download KiCAD 6 -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.2/CB_KiCAD_V6_Libraries_v0.2.zip">CB_KiCAD_Libraries_v0.2</a>
-  ### +------------------------------------------------------------------------+
+  ### +-----------------------------------------------------------------------+
 
 2. After downloading the package, open KiCAD and launch the PCM.
 
@@ -170,7 +170,7 @@ All the components in theCB  KiCAD Library are listaed below.
        <li><p>BC108</p></li>
        <li><p>C828</p></li>
        <li><p>D313</p></li>
-       <li><p>D400 🆕</p></li>
+       <li><p>D400 </p></li>
     </tr>
     <tr>
      <td><strong>CB_Connectors</strong></td>
@@ -207,8 +207,8 @@ All the components in theCB  KiCAD Library are listaed below.
      <ul>
        <li><p>Arduino Pro Mini</p></li>
        <li><p>ESP32 CAM</p></li>
-       <li><p>ESP32 DevKit V1 DOIT 30GPIOs 🆕</p></li>
-       <li><p>ESP32 DevKit V1 DOIT 32GPIOs 🆕</p></li>
+       <li><p>ESP32 DevKit V1 DOIT 30GPIOs </p></li>
+       <li><p>ESP32 DevKit V1 DOIT 32GPIOs </p></li>
        <li><p>Lolin NodeMCU ESP8266 V3</p></li>
        <li><p>Rasberry Pi Pico</p></li>
        <li><p>Blue Pill DevBoard</p></li>   
@@ -218,11 +218,11 @@ All the components in theCB  KiCAD Library are listaed below.
      <td>
      <ul>
        <li><p>A4988</p></li>
-       <li><p>HC-05 Bluetooth Module🆕</p></li>
+       <li><p>HC-05 Bluetooth Module</p></li>
        <li><p>HC-06 Bluetooth Module</p></li>
        <li><p>HC SR04 Ultrasonic Sensor</p></li>
        <li><p>LCD 16x4</p></li>
-       <li><p>MPU6050🆕</p></li>
+       <li><p>MPU6050</p></li>
        <li><p>PIR Sensor</p></li>
     </tr>
      </tbody>
