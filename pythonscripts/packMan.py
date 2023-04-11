@@ -1,7 +1,8 @@
 import shutil
 import os
+import json
 
-print(" Code V 4.0 ")
+print(" packMan V 5.0 ")
 
 searchWord = "CB_"
 addWord = "PCM_"
@@ -23,6 +24,124 @@ destSymbols      = "pcm/symbols"
 destModels       = "pcm/3dmodels"
 destResources    = "pcm/resources"
 destJson         = "pcm/metadata.json"
+
+
+
+def Update3DLinks():
+    # Define the directory to search for .kicad_mod files in
+    #dir_to_search = "pcm/footprints"
+    dir_to_search = destFootprint
+    
+
+    # Walk through the directory and its subdirectories
+    for root, dirs, files in os.walk(dir_to_search):
+        # Loop through all files in the current directory
+        for file_name in files:
+            # Check if the file is a .kicad_mod file
+            if file_name.endswith(".kicad_mod"):
+                # Construct the full path to the file
+                file_path = os.path.join(root, file_name)
+
+                # Open the file in read mode
+                with open(file_path, "r") as file:
+                    # Read the file contents into a string variable
+                    file_contents = file.read()
+
+                # Replace all occurrences of "{KICAD6_3RD_PARTY}" with "{KICAD7_3RD_PARTY}"
+                new_contents = file_contents.replace("{KICAD6_3RD_PARTY}", "{KICAD7_3RD_PARTY}")
+
+                # Open the file in write mode and write the new contents to it
+                with open(file_path, "w") as file:
+                    file.write(new_contents)
+
+#***********************************************************************************************
+
+
+
+def updatePackageVersion(version):
+
+    # Open the JSON file in read mode
+    with open(srcJson, "r") as file:
+        # Load the JSON data into a Python dictionary
+        data = json.load(file)
+
+    # Update the value of the "version" key
+    data["versions"][0]["version"] = version
+
+
+    url = data["versions"][0]["download_url"] 
+
+    # Change downlode URL.
+
+    #url = "https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.0.2/CB_KiCAD_Libraries_v0.0.2.zip"
+
+    # Split the URL string by "/"
+    url_parts = url.split("/")
+    # Split the CB_KiCAD_Libraries_v0.0.2. string by "_"
+    file_name = url_parts[8].split("_")
+
+
+    # Replace the text between the 7th and 8th "/" characters
+    url_parts[7] = "v" + version
+
+    file_name[4] =  "v" + version + ".zip"
+
+    # Join the file name back into a single string
+    url_parts[8] = "_".join(file_name)
+
+    # Join the URL parts back into a single string
+    new_url = "/".join(url_parts)
+
+    #print(new_url)
+
+
+    data["versions"][0]["download_url"]  = new_url
+
+
+    # Open the JSON file in write mode
+    with open(srcJson, "w") as file:
+        # Write the updated JSON data to the file
+        file.write(json.dumps(data, indent=1))
+        #json.dump(data, file)
+
+#***********************************************************************************************
+
+
+
+def updateKiCADVersionInMetadata(kicad_version):
+
+        # Open the JSON file in read mode
+    with open(destJson, "r") as file:
+        # Load the JSON data into a Python dictionary
+        data = json.load(file)
+
+    # Update the value of the "version" key
+    data["versions"][0]["kicad_version"] = kicad_version
+
+    url = data["versions"][0]["download_url"] 
+
+    # Split the URL string by "/"
+    url_parts = url.split("/")
+    # Split the CB_KiCAD_Libraries_v0.0.2. string by "_"
+    file_name = url_parts[8].split("_")
+
+    # Change the kiCAD version number in zip file 
+    file_name[2] =  "V" + kicad_version
+
+    # Join the file name back into a single string
+    url_parts[8] = "_".join(file_name)
+    # Join the URL parts back into a single string
+    new_url = "/".join(url_parts)
+
+    data["versions"][0]["download_url"]  = new_url
+
+    # Open the JSON file in write mode
+    with open(destJson, "w") as file:
+        # Write the updated JSON data to the file
+        file.write(json.dumps(data, indent=1))
+        #json.dump(data, file)
+
+#***********************************************************************************************
 
 
 
@@ -159,7 +278,6 @@ def changeLibParthToPCM():
     print("")
 
     UserInput = input("Do you want to copy other files which need to create a PCM package (y / n) = ") 
-
     if(UserInput == 'y'):
 
         print("")
@@ -173,13 +291,22 @@ def changeLibParthToPCM():
 
         print("")
         print("Copying metadata and resources .................................")
-        destination = shutil.copytree(srcResources, destResources) 
+        destination = shutil.copytree(srcResources, destResources)       
 
         #outputFile = open(destJson, "w") #Opening file
         #outputFile.write(newFileData)
         #outputFile.close()
 
+       
+        pack_version = "0.1"
+        pack_version = input("Enter the version number (In to JSON file) (Ex- 0.2, 0.3, 0.4.1) = ")
+        updatePackageVersion(pack_version)
         destination = shutil.copyfile(srcJson, destJson) 
+
+        kicad_version_in = "7"
+        kicad_version_in = input("Enter the KiCAD version number (In to JSON file) (Ex- 6, 7) = ")
+        updateKiCADVersionInMetadata(kicad_version_in)
+
 
         print("")
 
@@ -188,10 +315,23 @@ def changeLibParthToPCM():
     print("")
 
 
+
+    UserInput = input("Do you want to Change the 3D model pathes (y / n) = ") 
+    if(UserInput == 'y'):
+        Update3DLinks()
+    else:
+        print("Discarded **************** ")
+    print("")
+
+
+
     UserInput = input("Enter anything to Exit the programe :) = ") 
 
 
 
-    
-    
+
+
+changeLibParthToPCM()
+
+
 
