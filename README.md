@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/badge/COMPONESNTS-330-yellow?style=for-the-badge)   ![PLATFORM](https://img.shields.io/badge/PLATFORM-KiCAD-informational?style=for-the-badge&?link=https://www.kicad.org/=https://www.kicad.org/)   ![Version](https://img.shields.io/badge/Version-v0.2-success?style=for-the-badge) <a href="https://www.youtube.com/c/CircuitBreakersRobotics"><img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Badge"/></a>
+![Version](https://img.shields.io/badge/COMPONESNTS-330-yellow?style=for-the-badge)   ![PLATFORM](https://img.shields.io/badge/PLATFORM-KiCAD-informational?style=for-the-badge&?link=https://www.kicad.org/=https://www.kicad.org/)   ![Version](https://img.shields.io/badge/Version-v0.3-success?style=for-the-badge) <a href="https://www.youtube.com/c/CircuitBreakersRobotics"><img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Badge"/></a>
 
 # **CircuitBreakers KiCAD Libraries**
 
@@ -27,7 +27,7 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
 - **For KiCAD 7.0 or Newer**
 
     ### **+-----------------------------------------------------------------------+**
-     ##         **📂Download KiCAD 7 -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.2/CB_KiCAD_V7_Libraries_v0.2.1.zip">CB_KiCAD_Libraries_v0.2</a>**
+     ##         **📂Download KiCAD 7 -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.3/CB_KiCAD_V7_Libraries_v0.3.zip">CB_KiCAD_Libraries_v0.3</a>**
     ### **+-----------------------------------------------------------------------+**
 
 ### 
@@ -35,7 +35,7 @@ The CB KiCAD libraries can be installed through **📦 PCM(Pluging and Content M
 - **For KiCAD 6.0**
 
   ### +-----------------------------------------------------------------------+
-  ###         📂Download KiCAD 6 -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.2/CB_KiCAD_V6_Libraries_v0.2.zip">CB_KiCAD_Libraries_v0.2</a>
+  ###         📂Download KiCAD 6 -> <a href="https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.3/CB_KiCAD_V6_Libraries_v0.3.zip">CB_KiCAD_Libraries_v0.3</a>
   ### +-----------------------------------------------------------------------+
 
 2. After downloading the package, open KiCAD and launch the PCM.
