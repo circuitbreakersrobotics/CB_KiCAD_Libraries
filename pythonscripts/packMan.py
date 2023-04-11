@@ -84,7 +84,7 @@ def updatePackageVersion(version):
     # Replace the text between the 7th and 8th "/" characters
     url_parts[7] = "v" + version
 
-    file_name[3] =  "v" + version + ".zip"
+    file_name[4] =  "v" + version + ".zip"
 
     # Join the file name back into a single string
     url_parts[8] = "_".join(file_name)
@@ -92,7 +92,7 @@ def updatePackageVersion(version):
     # Join the URL parts back into a single string
     new_url = "/".join(url_parts)
 
-    print(new_url)
+    #print(new_url)
 
 
     data["versions"][0]["download_url"]  = new_url
@@ -117,6 +117,23 @@ def updateKiCADVersionInMetadata(kicad_version):
 
     # Update the value of the "version" key
     data["versions"][0]["kicad_version"] = kicad_version
+
+    url = data["versions"][0]["download_url"] 
+
+    # Split the URL string by "/"
+    url_parts = url.split("/")
+    # Split the CB_KiCAD_Libraries_v0.0.2. string by "_"
+    file_name = url_parts[8].split("_")
+
+    # Change the kiCAD version number in zip file 
+    file_name[2] =  "V" + kicad_version
+
+    # Join the file name back into a single string
+    url_parts[8] = "_".join(file_name)
+    # Join the URL parts back into a single string
+    new_url = "/".join(url_parts)
+
+    data["versions"][0]["download_url"]  = new_url
 
     # Open the JSON file in write mode
     with open(destJson, "w") as file:
@@ -282,12 +299,12 @@ def changeLibParthToPCM():
 
        
         pack_version = "0.1"
-        pack_version = input("Enter the version number (In to JSON file) = ")
+        pack_version = input("Enter the version number (In to JSON file) (Ex- 0.2, 0.3, 0.4.1) = ")
         updatePackageVersion(pack_version)
         destination = shutil.copyfile(srcJson, destJson) 
 
         kicad_version_in = "7"
-        kicad_version_in = input("Enter the version number (In to JSON file) = ")
+        kicad_version_in = input("Enter the KiCAD version number (In to JSON file) (Ex- 6, 7) = ")
         updateKiCADVersionInMetadata(kicad_version_in)
 
 
@@ -311,6 +328,10 @@ def changeLibParthToPCM():
     UserInput = input("Enter anything to Exit the programe :) = ") 
 
 
+
+
+
+changeLibParthToPCM()
 
 
 
