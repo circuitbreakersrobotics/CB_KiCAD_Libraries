@@ -1,8 +1,8 @@
 {
  "$schema": "https://go.kicad.org/pcm/schemas/v1",
  "name": "CB KiCAD Libraries",
- "description": "User-friendly library package for beginners by Circuit Breaker Robotics",
- "description_full": "Circuit Breaker Robotics KiCAD library pack is a collection of common electronic components libraries for the free and open-source KiCAD PCB design software. The goal of Circuit Breaker KiCAD Libraries is to provide a user-friendly library package  for beginners.",
+ "description": "User-friendly library package for beginners by CircuitBreaker Robotics",
+ "description_full": "CircuitBreaker Robotics KiCAD library pack is a collection of common electronic components libraries for the free and open-source KiCAD PCB design software. The goal of CircuitBreaker KiCAD Libraries is to provide a user-friendly library package  for beginners.",
  "identifier": "com.github.circuitbreakersrobotics.CB-KiCAD-Libraries",
  "type": "library",
  "author": {
@@ -12,7 +12,7 @@
   }
  },
  "maintainer": {
-  "name": "Circuitbreakers Robotics",
+  "name": "CircuitBreakers Robotics",
   "contact": {
    "web": "https://circuitbreakerssl.com"
   }
@@ -26,7 +26,7 @@
    "version": "0.3",
    "status": "development",
    "kicad_version": "7",
-   "download_size": 33405858,
+   "download_size": 33405864,
    "download_url": "https://github.com/circuitbreakersrobotics/CB_KiCAD_Libraries/releases/download/v0.3/CB_KiCAD_V7_Libraries_v0.3.zip",
    "install_size": 168410755
   }
